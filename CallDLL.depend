@@ -1,0 +1,519 @@
+# depslib dependency file v1.0
+1535444471 source:d:\development\other\CallDLL\log.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<string.h>
+	<time.h>
+	"log.h"
+
+1532162743 d:\development\other\CallDLL\log.h
+	<stdio.h>
+	<stdarg.h>
+
+1537165550 source:d:\development\other\CallDLL\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	<pthread.h>
+	"log.h"
+	"acs.h"
+	"attpriv.h"
+	"csta.h"
+	"cstadefs.h"
+	"CSTA_device_feature_types.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\acs.h
+	"tsplatfm.h"
+	<windows.h>
+	<acsdefs.h>
+	"acsnamedappconf.h"
+
+1305865108 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\tsplatfm.h
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\acsdefs.h
+	"tsplatfm.h"
+	<ctiacsdefs.h>
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\ctiacsdefs.h
+	"ossship.h"
+
+1305865104 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\ossship.h
+
+1305865108 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\attpriv.h
+	"tsplatfm.h"
+	"attpdefs.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\attpdefs.h
+	"ctipdefs.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\ctipdefs.h
+	"ATT_private_identifiers.h"
+	"CSTA_event_causes.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+	"CSTA_connection_states.h"
+	"CSTA_status_reporting.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\att_private_identifiers.h
+	"ossship.h"
+	"CSTA_event_causes.h"
+	"CSTA_connection_states.h"
+	"CSTA_status_reporting.h"
+	"CSTA_call_connection_identifiers.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_event_causes.h
+	"ossship.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_connection_states.h
+	"ossship.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_device_identifiers.h
+	"ossship.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_call_connection_identifiers.h
+	"ossship.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_status_reporting.h
+	"ossship.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+	"CSTA_connection_states.h"
+
+1305865108 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta.h
+	"tsplatfm.h"
+	"cstadefs.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\cstadefs.h
+	"tsplatfm.h"
+	"cticstadefs.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\cticstadefs.h
+	"CSTA_event_causes.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+	"CSTA_connection_states.h"
+	"CSTA_status_reporting.h"
+	"CSTA_error_definition.h"
+	"CSTA_device_feature_types.h"
+	"CSTA_alternate_call.h"
+	"CSTA_answer_call.h"
+	"CSTA_call_completion.h"
+	"CSTA_clear_call.h"
+	"CSTA_clear_connection.h"
+	"CSTA_conference_call.h"
+	"CSTA_consultation_call.h"
+	"CSTA_deflect_call.h"
+	"CSTA_pickup_call.h"
+	"CSTA_group_pickup_call.h"
+	"CSTA_hold_call.h"
+	"CSTA_make_call.h"
+	"CSTA_make_predictive_call.h"
+	"CSTA_query_device.h"
+	"CSTA_reconnect_call.h"
+	"CSTA_retrieve_call.h"
+	"CSTA_set_feature.h"
+	"CSTA_transfer_call.h"
+	"CSTA_event_report_definitions.h"
+	"CSTA_call_cleared_event.h"
+	"CSTA_conferenced_event.h"
+	"CSTA_connection_cleared_event.h"
+	"CSTA_delivered_event.h"
+	"CSTA_diverted_event.h"
+	"CSTA_established_event.h"
+	"CSTA_failed_event.h"
+	"CSTA_held_event.h"
+	"CSTA_network_reached_event.h"
+	"CSTA_originated_event.h"
+	"CSTA_queued_event.h"
+	"CSTA_retrieved_event.h"
+	"CSTA_service_initiated_event.h"
+	"CSTA_transferred_event.h"
+	"CSTA_call_information_event.h"
+	"CSTA_do_not_disturb_event.h"
+	"CSTA_forwarding_event.h"
+	"CSTA_message_waiting_event.h"
+	"CSTA_logged_on_event.h"
+	"CSTA_logged_off_event.h"
+	"CSTA_not_ready_event.h"
+	"CSTA_ready_event.h"
+	"CSTA_work_not_ready_event.h"
+	"CSTA_work_ready_event.h"
+	"CSTA_route_register.h"
+	"CSTA_route_register_cancel.h"
+	"CSTA_route_request.h"
+	"CSTA_route_select_request.h"
+	"CSTA_re_route_request.h"
+	"CSTA_route_used_request.h"
+	"CSTA_route_end_event.h"
+	"CSTA_route_end_request.h"
+	"CSTA_escape_service.h"
+	"CSTA_private_event.h"
+	"CSTA_back_in_service_event.h"
+	"CSTA_out_of_service_event.h"
+	"CSTA_system_status.h"
+	"CSTA_monitor_start.h"
+	"CSTA_change_monitor_filter.h"
+	"CSTA_monitor_stop.h"
+	"CSTA_snapshot_call.h"
+	"CSTA_snapshot_device.h"
+	"CSTA_control_services.h"
+	"CSTA_route_request_extended.h"
+	"CSTA_route_used_request_extended.h"
+	"CSTA_route_select_request_invoke.h"
+	"CSTA_route_end_request_invoke.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_error_definition.h
+	"ossship.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_device_feature_types.h
+	"ossship.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_alternate_call.h
+	"ossship.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_answer_call.h
+	"ossship.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_call_completion.h
+	"ossship.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_clear_call.h
+	"ossship.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_clear_connection.h
+	"ossship.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_conference_call.h
+	"ossship.h"
+	"CSTA_connection_states.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_consultation_call.h
+	"ossship.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_deflect_call.h
+	"ossship.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_pickup_call.h
+	"ossship.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_group_pickup_call.h
+	"ossship.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_hold_call.h
+	"ossship.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_make_call.h
+	"ossship.h"
+	"CSTA_call_connection_identifiers.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_make_predictive_call.h
+	"ossship.h"
+	"CSTA_call_connection_identifiers.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_query_device.h
+	"ossship.h"
+	"CSTA_device_feature_types.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_reconnect_call.h
+	"ossship.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_retrieve_call.h
+	"ossship.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_set_feature.h
+	"ossship.h"
+	"CSTA_device_feature_types.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_transfer_call.h
+	"ossship.h"
+	"CSTA_connection_states.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_event_report_definitions.h
+	"ossship.h"
+	"CSTA_error_definition.h"
+	"CSTA_status_reporting.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_call_cleared_event.h
+	"ossship.h"
+	"CSTA_event_causes.h"
+	"CSTA_connection_states.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_conferenced_event.h
+	"ossship.h"
+	"CSTA_event_causes.h"
+	"CSTA_connection_states.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_connection_cleared_event.h
+	"ossship.h"
+	"CSTA_event_causes.h"
+	"CSTA_connection_states.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_delivered_event.h
+	"ossship.h"
+	"CSTA_event_causes.h"
+	"CSTA_connection_states.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_diverted_event.h
+	"ossship.h"
+	"CSTA_event_causes.h"
+	"CSTA_connection_states.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_established_event.h
+	"ossship.h"
+	"CSTA_event_causes.h"
+	"CSTA_connection_states.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_failed_event.h
+	"ossship.h"
+	"CSTA_event_causes.h"
+	"CSTA_connection_states.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_held_event.h
+	"ossship.h"
+	"CSTA_event_causes.h"
+	"CSTA_connection_states.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_network_reached_event.h
+	"ossship.h"
+	"CSTA_event_causes.h"
+	"CSTA_connection_states.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_originated_event.h
+	"ossship.h"
+	"CSTA_event_causes.h"
+	"CSTA_connection_states.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_queued_event.h
+	"ossship.h"
+	"CSTA_event_causes.h"
+	"CSTA_connection_states.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_retrieved_event.h
+	"ossship.h"
+	"CSTA_event_causes.h"
+	"CSTA_connection_states.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_service_initiated_event.h
+	"ossship.h"
+	"CSTA_event_causes.h"
+	"CSTA_connection_states.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_transferred_event.h
+	"ossship.h"
+	"CSTA_event_causes.h"
+	"CSTA_connection_states.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_call_information_event.h
+	"ossship.h"
+	"CSTA_device_feature_types.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_do_not_disturb_event.h
+	"ossship.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_forwarding_event.h
+	"ossship.h"
+	"CSTA_device_feature_types.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_message_waiting_event.h
+	"ossship.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_logged_on_event.h
+	"ossship.h"
+	"CSTA_device_feature_types.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_logged_off_event.h
+	"ossship.h"
+	"CSTA_device_feature_types.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_not_ready_event.h
+	"ossship.h"
+	"CSTA_device_feature_types.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_ready_event.h
+	"ossship.h"
+	"CSTA_device_feature_types.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_work_not_ready_event.h
+	"ossship.h"
+	"CSTA_device_feature_types.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_work_ready_event.h
+	"ossship.h"
+	"CSTA_device_feature_types.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_route_register.h
+	"ossship.h"
+	"CSTA_device_feature_types.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_route_register_cancel.h
+	"ossship.h"
+	"CSTA_device_feature_types.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_route_request.h
+	"ossship.h"
+	"CSTA_call_connection_identifiers.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_device_feature_types.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_route_select_request.h
+	"ossship.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_device_feature_types.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_re_route_request.h
+	"ossship.h"
+	"CSTA_device_feature_types.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_route_used_request.h
+	"ossship.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_device_feature_types.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_route_end_event.h
+	"ossship.h"
+	"CSTA_error_definition.h"
+	"CSTA_device_feature_types.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_route_end_request.h
+	"ossship.h"
+	"CSTA_error_definition.h"
+	"CSTA_device_feature_types.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_escape_service.h
+	"ossship.h"
+	"CSTA_error_definition.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_private_event.h
+	"ossship.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_back_in_service_event.h
+	"ossship.h"
+	"CSTA_event_causes.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_out_of_service_event.h
+	"ossship.h"
+	"CSTA_event_causes.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_system_status.h
+	"ossship.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_monitor_start.h
+	"ossship.h"
+	"CSTA_call_connection_identifiers.h"
+	"CSTA_status_reporting.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_change_monitor_filter.h
+	"ossship.h"
+	"CSTA_status_reporting.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_monitor_stop.h
+	"ossship.h"
+	"CSTA_event_causes.h"
+	"CSTA_status_reporting.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_snapshot_call.h
+	"ossship.h"
+	"CSTA_status_reporting.h"
+	"CSTA_call_connection_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_snapshot_device.h
+	"ossship.h"
+	"CSTA_status_reporting.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_control_services.h
+	"ossship.h"
+	"CSTA_device_identifiers.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_route_request_extended.h
+	"ossship.h"
+	"CSTA_call_connection_identifiers.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_device_feature_types.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_route_used_request_extended.h
+	"ossship.h"
+	"CSTA_device_identifiers.h"
+	"CSTA_device_feature_types.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_route_select_request_invoke.h
+	"ossship.h"
+	"CSTA_route_select_request.h"
+
+1284703592 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\csta_route_end_request_invoke.h
+	"ossship.h"
+	"CSTA_route_end_request.h"
+
+1305865108 d:\project\tradelink\avaya\ae services\sdks\tsapi\hdrs\acslimit.h
+
